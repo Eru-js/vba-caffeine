@@ -1,6 +1,6 @@
 ## vba-caffeine
 
-Visual Basic App script that prevents your system from going to sleep mode
+Visual Basic script that prevents your system from going to sleep mode
 
 ### Enable developer mode on Excel
 
@@ -16,12 +16,14 @@ Visual Basic App script that prevents your system from going to sleep mode
 
 ### Integrate to Excel sheet
 
-- in Developer tab, insert 2 button:
+- in Developer tab, insert 2 button in `Sheet1`:
   - for start button
   - for stop button
 - `Right-click` on the button and choose `Assign Macro`
 - for start button, assign the `Move_Cursor` Macro
 - for stop button, assign the `Stop_Cursor` Macro
+- once you click button for start it will populate the cell in `Sheet1 column A row 1`, this is the time interval in which the macro will execute.
+- to modify, click the stop button and change the time interval. Format is `hours:minutes:seconds`
 
 ### Create VBA module
 
