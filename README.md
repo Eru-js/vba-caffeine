@@ -16,7 +16,7 @@ Visual Basic script that prevents your system from going to sleep mode
 
 ### Integrate to Excel sheet
 
-- in Developer tab, insert 2 button in `Sheet1`:
+- in Developer tab, insert 2 buttons in `Sheet1`:
   - for start button
   - for stop button
 - `Right-click` on the button and choose `Assign Macro`
